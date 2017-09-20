@@ -11,7 +11,7 @@ before_install:
   - sudo apt-get -qq update
   - sudo apt-get install libpango-perl libpango1.0-dev libgtk2-perl libgtk2.0-bin libgtk2.0-dev libvte-dev libvte9 -y
 
-script: prove -lr test.pl
+#script: perl test.pl
 
 install:
   - cpanm --quiet --installdeps --notest Gnome2::Vte
